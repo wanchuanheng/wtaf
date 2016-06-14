@@ -14,8 +14,8 @@ namespace base{
 template<typename T>
 class Block_Queue{
 public:
-	Block_Queuen(const Block_Queue& rhs) = deleted;
-	Block_Queuen& operator=(const Block_Queue& rhs) = deleted; 
+	Block_Queue(const Block_Queue& rhs) = deleted;
+	Block_Queue& operator=(const Block_Queue& rhs) = deleted; 
 	
 
 	void push(T element)
