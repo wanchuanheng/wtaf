@@ -1,2 +1,3 @@
 # wtaf
-distributed development frame and examples
+
+基于c++11新标准开发一个支持多线程高并发的网络库
